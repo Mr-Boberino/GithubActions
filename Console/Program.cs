@@ -86,7 +86,7 @@ namespace GithubActionsLab
         {
             double baseNum = double.Parse(x);
 			double answer = double.Parse(x);
-	        for (int i = 1; i < int.Parse(y)) {
+	        for (int i = 1; i < int.Parse(y); i++) {
 		        answer *= baseNum;
 	        }
             return answer;
